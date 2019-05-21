@@ -9,19 +9,15 @@ read -p "csrutil must be disabled to continue"
 while true; do
 	read -p "Have you disabled csrutil? [y,n] " doit
 	doit=$( echo "$doit" | tr '[:upper:]' '[:lower:]')
-	if [ $doit == "y" ] || [ $doit == "yes" ]; then
-		break
-	elif [ $doit == "n" ] || [ $doit == "no" ]; then
-		read -p "We will now disable csrutil, then the script will stop. You must reboot your computer then rerun the script."
-		csrutil disable
-		echo "Disabled csrutil. Now please reboot your computer and then re-execute this script"
-		exit 1
-	else
-		echo -e "${RED}Invlaid command - Please input 'y' or 'n'${NC}"
-	fi
+	case $doit in
+		y|yes) break;;
+		n|no) read -p "We will now disable csrutil, then the script will stop. You must reboot your computer then rerun the script." && csrutil disable && echo "Disabled csrutil. Now please reboot your computer and then re-execute this script" && exit 1;;
+		*) echo -e "${RED}Invlaid command - Please input 'y' or 'n'${NC}";;
+	esac
 done
 
-read -p "We will now disable your all laptop camera. \nWARNING!!! By doing this, you will completely disable the software components behind the built-in camera on your computer. Press 'enter' to continue and 'Ctrl + C' to cancel."
+read -p "We will now disable your all laptop camera.
+${RED}WARNING!!!${NC} By doing this, you will completely disable the software components behind the built-in camera on your computer. Press 'enter' to continue and 'Ctrl + C' to cancel."
 
 # disables camera software components
 sudo chmod a-r /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/VDC.plugin/Contents/MacOS/VDC
