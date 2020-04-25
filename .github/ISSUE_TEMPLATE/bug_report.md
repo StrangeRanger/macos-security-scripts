@@ -23,9 +23,9 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
+**Setup (please complete the following information):**
  - macOS Version: [e.g. 10.15.4]
- - Release Version [e.g. v0.2.0]
+ - Release Version: [e.g. v0.2.0]
 
 **Additional context**
 Add any other context about the problem here.
