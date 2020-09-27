@@ -1,6 +1,6 @@
 # Contributing
 
-When contributing to this repository, select a task, feature, or issue from the [issue tab](https://github.com/StrangeRanger/linux-security-scripts/issues). If you want to add a new feature, you can create a new issue and add it to the project. The same goes for bugs.
+When contributing to this repository, select a task, feature, or issue from the [issue tab](https://github.com/StrangeRanger/macos-security-scripts/issues). If you want to add a new feature, you can create a new issue and add it to the project. The same goes for bugs.
 
 ## Planning
 
