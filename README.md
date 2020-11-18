@@ -4,6 +4,8 @@
 
 This repository is a collection of scripts designed to secure/harden macOS.
 
+For information on each of the scripts, visit the [repo wiki](https://github.com/StrangeRanger/linux-security-scripts/wiki). Each page will provide information on the script in questions, example output, and a changelog.
+
 ## Other Resources
 
 This repository is still a work in progress. While it has scripts that can help secure macOS, it's not nearly enough to secure the system as much as it needs to be. Below is a list of other resources that you can use to help make macOS as secure as possible.
@@ -14,4 +16,7 @@ This repository is still a work in progress. While it has scripts that can help 
 
 Below is a list of all the versions of macOS that the security scripts have been tested and confirmed to work on.
 
-* macOS Catalina
+* macOS 10.14 Mojave
+* macOS 10.15 Catalina
+* macOS 11.0&ensp; Big Sur
+
