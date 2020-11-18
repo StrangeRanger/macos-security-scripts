@@ -4,7 +4,7 @@
 
 This repository is a collection of scripts designed to secure/harden macOS.
 
-For information on each of the scripts, visit the [repo wiki](https://github.com/StrangeRanger/linux-security-scripts/wiki). Each page will provide information on the script in questions, example output, and a changelog.
+For information on each of the scripts, visit the [repo wiki](https://github.com/StrangeRanger/macos-security-scripts/wiki). Each page will provide information on the script in questions, example output, and a changelog.
 
 ## Other Resources
 
