@@ -17,6 +17,6 @@ This repository is still a work in progress. While it has scripts that can help 
 
 Below is a list of all the versions of macOS that the security scripts have been tested and confirmed to work on.
 
-* macOS 10.14 Mojave
-* macOS 10.15 Catalina
-* macOS 11.0&ensp; Big Sur
+- macOS 11.0&ensp; Big Sur
+- macOS 10.15 Catalina
+- macOS 10.14 Mojave
