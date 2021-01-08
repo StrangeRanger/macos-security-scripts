@@ -20,4 +20,3 @@ Below is a list of all the versions of macOS that the security scripts have been
 * macOS 10.14 Mojave
 * macOS 10.15 Catalina
 * macOS 11.0&ensp; Big Sur
-
