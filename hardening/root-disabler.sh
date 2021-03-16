@@ -12,7 +12,7 @@ red=$'\033[1;31m'
 nc=$'\033[0m'
 
 # Checks to see if this script was executed with root privilege
-if ((EUID == 0)); then
+if [[ $EUID = 0 ]]; then
     echo "${red}Do not run this script as root or with root privilege${nc}" >&2
     echo -e "\nExiting..."
     exit 1
