@@ -16,7 +16,8 @@ For information on each of the scripts, visit the [repo wiki](https://github.com
 
 This repository is still a work in progress. While it has scripts that can help secure macOS, it's not nearly enough to secure the system as much as it needs to be. Below is a list of other resources that you can use to help make macOS as secure as possible.
 
-- [macOS Security and Privacy Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide) - A resource with a lot of good advice on how to increase the privacy and security of your Mac
+- [macOS Security and Privacy Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide) - A resource with a lot of good advice on how to increase the privacy and security of your Mac.
+- [Privacy.Sexy](https://github.com/undergroundwires/privacy.sexy) - Open-source tool to enforce privacy & security best-practices on Windows and macOS, because privacy is sexy 🍑🍆.
 
 ## Tested On
 
