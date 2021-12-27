@@ -1,6 +1,7 @@
 # macOS Security Scripts
 
 <!-- Active status commented out
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fe22e725e1b447cfbc096c4c7ea86a64)](https://app.codacy.com/gh/StrangeRanger/macos-security-scripts?utm_source=github.com&utm_medium=referral&utm_content=StrangeRanger/macos-security-scripts&utm_campaign=Badge_Grade_Settings)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 -->
 
