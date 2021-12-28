@@ -10,7 +10,7 @@ For information on each of the scripts, visit the [repo wiki](https://github.com
 
 ## Getting Started
 
-### Installing
+### Downloading
 
 All you need to do is download the repository. There are no binaries or anything to install.
 
