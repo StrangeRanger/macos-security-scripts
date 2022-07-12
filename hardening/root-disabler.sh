@@ -2,14 +2,14 @@
 #
 # Disable the root account.
 #
-# Version: v1.0.1
+# Version: v1.0.2
 # License: MIT License
 #          Copyright (c) 2020-2022 Hunter T. (StrangeRanger)
 #
 ########################################################################################
 
-red=$'\033[1;31m'
-nc=$'\033[0m'
+red="$(printf '\033[1;31m')"
+nc="$(printf '\033[0m')"
 
 ## Check if the script was executed with root privilege.
 if [[ $EUID = 0 ]]; then
