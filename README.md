@@ -26,6 +26,7 @@ A majority of the scripts will require root privilege to be executed:
 
 Below is a list of all the versions of macOS that the security scripts have been officially tested and are confirmed to work on.
 
+- macOS 13 (Ventura)
 - macOS 12 (Monterey)
 - macOS 11 (Big Sur)
 - macOS 10.15 (Catalina)
