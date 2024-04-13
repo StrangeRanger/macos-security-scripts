@@ -1,6 +1,6 @@
 # macOS Security Scripts
 
-[![Project Tracker](https://img.shields.io/badge/repo%20status-Project%20Tracker-lightgrey)](https://randomserver.xyz/project-tracker.html#macos-security-scripts)
+[![Project Tracker](https://img.shields.io/badge/repo%20status-Project%20Tracker-lightgrey)](https://wiki.hthompson.dev/en/project-tracker)
 [![Style Guide](https://img.shields.io/badge/code%20style-Style%20Guide-blueviolet)](https://github.com/StrangeRanger/bash-style-guide)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c0f5a6bf7e2e4a688c919aff51375648)](https://www.codacy.com/gh/StrangeRanger/macos-security-scripts/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=StrangeRanger/macos-security-scripts&amp;utm_campaign=Badge_Grade)
 
