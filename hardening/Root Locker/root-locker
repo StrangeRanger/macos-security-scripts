@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #
-# Disable the root account.
+# This script locks and removes the root account's password (if one is set). This
+# prevents users from successfully logging into the root account via su. Note that it
+# doesn't not prevent users from becoming root via methods such as sudo su.
 #
 # Version: v1.0.3
 # License: MIT License
