@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# This script locks the root account's. This prevents users from logging into the root
+# This script locks the root account. This prevents users from logging into the root
 # account via `su` or the GUI. Note that it does NOT prevent users from becoming root
 # via methods such as `sudo su`.
 #
