@@ -15,7 +15,7 @@ C_NC="$(printf '\033[0m')"
 
 
 ## Check if the script was executed with root privilege.
-if [[ $EUID == 0 ]]; then
+if [[ $EUID != 0 ]]; then
     echo "${C_RED}This script requires root privilege${C_NC}" >&2
     echo -e "\nExiting..."
     exit 1
