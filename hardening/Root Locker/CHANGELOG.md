@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - No longer requires root perms to run.
 - Greatly simplified the code.
+- Renamed script to `root-locker.bash`.
 
 ## v1.0.3 - 2024-04-13
 
