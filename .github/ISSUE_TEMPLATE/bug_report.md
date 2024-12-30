@@ -25,7 +25,7 @@ If applicable, add screenshots to help explain your problem.
 
 **Setup (please complete the following information):**
  - macOS Version: [e.g. 10.15.4]
- - Script(s) name: [e.g. disable-root.sh]
+ - Script(s) name: [e.g. `disable-root.bash`]
  - Script(s) Version: [e.g. v0.2.0]
 
 **Additional context**
