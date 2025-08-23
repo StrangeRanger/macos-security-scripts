@@ -6,25 +6,59 @@
 
 This repository is a collection of scripts designed to secure/harden macOS.
 
+<details>
+<summary><strong>Table of Contents</strong></summary>
+
+- [macOS Security Scripts](#macos-security-scripts)
+  - [Tools and Scripts](#tools-and-scripts)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Download and Setup](#download-and-setup)
+  - [Usage](#usage)
+  - [Tested On](#tested-on)
+  - [Other Resources](#other-resources)
+  - [Support and Issues](#support-and-issues)
+  - [License](#license)
+
+</details>
+
+## Tools and Scripts
+
+Below is a list of tools included in this repository.
+
+| Tool Name | Description | Category | Requirements | Notes |
+|-----------|-------------|----------|--------------|-------|
+| **[Root Locker](hardening/Root%20Locker/root-locker.bash)** | Locks the root account to prevent direct logins. | Hardening | Root privileges | Preserves sudo access |
+
+> [!NOTE]
+> All scripts include version information in their headers. Check individual CHANGELOG.md files in each tool's directory for version history and updates.
+
 ## Getting Started
 
-### Downloading
+### Prerequisites
+
+The following requirements extend to every tool in this repository:
+
+- **Bash**: Version 3.2 or higher
+- **Operating System**: macOS
+
+### Download and Setup
 
 All you need to do is download this repository to your local machine:
 
-`git clone https://github.com/StrangeRanger/macos-security-scripts`
+```bash
+git clone https://github.com/StrangeRanger/macos-security-scripts
+cd macos-security-scripts
+```
 
 ## Usage
 
-> [!NOTE]
-> Some of the scripts in this repository require root privileges to run. You can run the scripts with the `sudo` command to give them the necessary permissions.
-
-You can run the scripts in this repository by using the following command:
+You can run any script individually using one of the following methods:
 
 ```bash
-./[script name]
+./[script-name]
 # OR
-bash [script name]
+bash [script-name]
 ```
 
 ## Tested On
